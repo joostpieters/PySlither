@@ -41,7 +41,7 @@ while gameExit == False:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                 lead_x_change = 0
 
-    lead_x = (lead_x)+(lead_x_change) #Logica hardcore
+    lead_x = (lead_x)+(lead_x_change)
 
     gameDisplay.fill(white) #Seteando el FONDO como blanco
     
@@ -51,7 +51,7 @@ while gameExit == False:
     gameDisplay.fill(black, rect=[200,200,100,100]) #Otra forma de crear formas
     pygame.display.update() #Updatear asi se ve el fondo blanco
 
-    clock.tick(40) #Frames per second
+    clock.tick(40)
 
 
 pygame.quit()
