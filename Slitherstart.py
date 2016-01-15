@@ -48,7 +48,7 @@ while gameExit == False:
     pygame.draw.rect(gameDisplay, red,[lead_x,lead_y,30,30]) #Serpiente
 #Dibuja rectangulo. En gameDisplay. Rojo. Posicionado en 400x300. 30x30 de alto y ancho.
 #Mas info: https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect
-    gameDisplay.fill(black, rect=[200,200,100,100]) #Otra forma de crear formas
+    gameDisplay.fill(black, rect=[200,200,100,100]) #Otra manera de crear formas
     pygame.display.update() #Updatear asi se ve el fondo blanco
 
     clock.tick(40)
